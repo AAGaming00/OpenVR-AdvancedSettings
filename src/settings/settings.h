@@ -106,6 +106,13 @@ enum class StringSetting
     KEYBOARDSHORTCUT_keyboardOne,
     KEYBOARDSHORTCUT_keyboardTwo,
     KEYBOARDSHORTCUT_keyboardThree,
+    KEYBOARDSHORTCUT_keyboardFour,
+    KEYBOARDSHORTCUT_keyboardFive,
+    KEYBOARDSHORTCUT_keyboardSix,
+    KEYBOARDSHORTCUT_keyboardSeven,
+    KEYBOARDSHORTCUT_keyboardEight,
+    KEYBOARDSHORTCUT_keyboardNine,
+    KEYBOARDSHORTCUT_keyboardTen,
     KEYBOARDSHORTCUT_keyPressMisc,
     KEYBOARDSHORTCUT_keyPressSystem,
 

@@ -730,6 +730,63 @@ void OverlayController::processKeyboardBindings()
 
         sendStringAsInput( commands );
     }
+
+    if ( m_actions.keyboardFour() )
+    {
+        const auto commands = settings::getSetting(
+            settings::StringSetting::KEYBOARDSHORTCUT_keyboardFour );
+
+        sendStringAsInput( commands );
+    }
+
+    if ( m_actions.keyboardFive() )
+    {
+        const auto commands = settings::getSetting(
+            settings::StringSetting::KEYBOARDSHORTCUT_keyboardFive );
+
+        sendStringAsInput( commands );
+    }
+
+    if ( m_actions.keyboardSix() )
+    {
+        const auto commands = settings::getSetting(
+            settings::StringSetting::KEYBOARDSHORTCUT_keyboardSix );
+
+        sendStringAsInput( commands );
+    }
+
+    if ( m_actions.keyboardSeven() )
+    {
+        const auto commands = settings::getSetting(
+            settings::StringSetting::KEYBOARDSHORTCUT_keyboardSeven );
+
+        sendStringAsInput( commands );
+    }
+
+    if ( m_actions.keyboardEight() )
+    {
+        const auto commands = settings::getSetting(
+            settings::StringSetting::KEYBOARDSHORTCUT_keyboardEight );
+
+        sendStringAsInput( commands );
+    }
+
+    if ( m_actions.keyboardNine() )
+    {
+        const auto commands = settings::getSetting(
+            settings::StringSetting::KEYBOARDSHORTCUT_keyboardNine );
+
+        sendStringAsInput( commands );
+    }
+
+    if ( m_actions.keyboardTen() )
+    {
+        const auto commands = settings::getSetting(
+            settings::StringSetting::KEYBOARDSHORTCUT_keyboardTen );
+
+        sendStringAsInput( commands );
+    }
+
     // Press Key One
     if ( m_actions.keyPressMisc() && !m_keyPressOneState )
     {

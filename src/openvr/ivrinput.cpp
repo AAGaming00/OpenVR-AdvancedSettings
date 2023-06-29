@@ -139,6 +139,13 @@ SteamIVRInput::SteamIVRInput()
       m_keyboardOne( action_keys::keyboardOne ),
       m_keyboardTwo( action_keys::keyboardTwo ),
       m_keyboardThree( action_keys::keyboardThree ),
+      m_keyboardFour( action_keys::keyboardFour ),
+      m_keyboardFive( action_keys::keyboardFive ),
+      m_keyboardSix( action_keys::keyboardSix ),
+      m_keyboardSeven( action_keys::keyboardSeven ),
+      m_keyboardEight( action_keys::keyboardEight ),
+      m_keyboardNine( action_keys::keyboardNine ),
+      m_keyboardTen( action_keys::keyboardTen ),
       m_keyPressMisc( action_keys::keyPressMisc ),
       m_keyPressSystem( action_keys::keyPressSystem ),
       m_chaperoneToggle( action_keys::chaperoneToggle ),
@@ -356,10 +363,47 @@ bool SteamIVRInput::keyboardTwo()
 {
     return isDigitalActionActivatedOnce( m_keyboardTwo );
 }
+
 bool SteamIVRInput::keyboardThree()
 {
     return isDigitalActionActivatedOnce( m_keyboardThree );
 }
+
+bool SteamIVRInput::keyboardFour()
+{
+    return isDigitalActionActivatedOnce( m_keyboardFour );
+}
+
+bool SteamIVRInput::keyboardFive()
+{
+    return isDigitalActionActivatedOnce( m_keyboardFive );
+}
+
+bool SteamIVRInput::keyboardSix()
+{
+    return isDigitalActionActivatedOnce( m_keyboardSix );
+}
+
+bool SteamIVRInput::keyboardSeven()
+{
+    return isDigitalActionActivatedOnce( m_keyboardSeven );
+}
+
+bool SteamIVRInput::keyboardEight()
+{
+    return isDigitalActionActivatedOnce( m_keyboardEight );
+}
+
+bool SteamIVRInput::keyboardNine()
+{
+    return isDigitalActionActivatedOnce( m_keyboardNine );
+}
+
+bool SteamIVRInput::keyboardTen()
+{
+    return isDigitalActionActivatedOnce( m_keyboardTen );
+}
+
 bool SteamIVRInput::keyPressMisc()
 {
     return isDigitalActionActivatedConstant( m_keyPressMisc );

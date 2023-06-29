@@ -219,12 +219,47 @@
       "requirement": "optional",
       "type": "boolean"
     },
-	    {
+    {
+      "name": "/actions/misc/in/KeyboardFour",
+      "requirement": "optional",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/misc/in/KeyboardFive",
+      "requirement": "optional",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/misc/in/KeyboardSix",
+      "requirement": "optional",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/misc/in/KeyboardSeven",
+      "requirement": "optional",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/misc/in/KeyboardEight",
+      "requirement": "optional",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/misc/in/KeyboardNine",
+      "requirement": "optional",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/misc/in/KeyboardTen",
+      "requirement": "optional",
+      "type": "boolean"
+    },
+	  {
       "name": "/actions/misc/in/KeyPressMisc",
       "requirement": "optional",
       "type": "boolean"
     },
-	    {
+	  {
       "name": "/actions/system/in/KeyPressSystem",
       "requirement": "optional",
       "type": "boolean"
@@ -305,6 +340,13 @@
         "/actions/misc/in/KeyboardOne" : "Keyboard Shortcut One",
         "/actions/misc/in/KeyboardTwo" : "Keyboard Shortcut Two",
         "/actions/misc/in/KeyboardThree" : "Keyboard Shortcut Three",
+        "/actions/misc/in/KeyboardFour" : "Keyboard Shortcut Four",
+        "/actions/misc/in/KeyboardFive" : "Keyboard Shortcut Five",
+        "/actions/misc/in/KeyboardSix" : "Keyboard Shortcut Six",
+        "/actions/misc/in/KeyboardSeven" : "Keyboard Shortcut Seven",
+        "/actions/misc/in/KeyboardEight" : "Keyboard Shortcut Eight",
+        "/actions/misc/in/KeyboardNine" : "Keyboard Shortcut Nine",
+        "/actions/misc/in/KeyboardTen" : "Keyboard Shortcut Ten",
         "/actions/misc/in/KeyPressMisc": "Key Press Misc",
         "/actions/system/in/KeyPressSystem": "Key Press System"
     }

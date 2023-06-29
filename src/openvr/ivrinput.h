@@ -57,6 +57,14 @@ namespace action_keys
     constexpr auto keyboardOne = "/actions/misc/in/KeyboardOne";
     constexpr auto keyboardTwo = "/actions/misc/in/KeyboardTwo";
     constexpr auto keyboardThree = "/actions/misc/in/KeyboardThree";
+    constexpr auto keyboardFour = "/actions/misc/in/KeyboardFour";
+    constexpr auto keyboardFive = "/actions/misc/in/KeyboardFive";
+    constexpr auto keyboardSix = "/actions/misc/in/KeyboardSix";
+    constexpr auto keyboardSeven = "/actions/misc/in/KeyboardSeven";
+    constexpr auto keyboardEight = "/actions/misc/in/KeyboardEight";
+    constexpr auto keyboardNine = "/actions/misc/in/KeyboardNine";
+    constexpr auto keyboardTen = "/actions/misc/in/KeyboardTen";
+
     constexpr auto keyPressMisc = "/actions/misc/in/KeyPressMisc";
     constexpr auto keyPressSystem = "/actions/system/in/KeyPressSystem";
 
@@ -168,6 +176,13 @@ public:
     bool keyboardOne();
     bool keyboardTwo();
     bool keyboardThree();
+    bool keyboardFour();
+    bool keyboardFive();
+    bool keyboardSix();
+    bool keyboardSeven();
+    bool keyboardEight();
+    bool keyboardNine();
+    bool keyboardTen();
     bool keyPressMisc();
     bool keyPressSystem();
 
@@ -244,6 +259,13 @@ private:
     DigitalAction m_keyboardOne;
     DigitalAction m_keyboardTwo;
     DigitalAction m_keyboardThree;
+    DigitalAction m_keyboardFour;
+    DigitalAction m_keyboardFive;
+    DigitalAction m_keyboardSix;
+    DigitalAction m_keyboardSeven;
+    DigitalAction m_keyboardEight;
+    DigitalAction m_keyboardNine;
+    DigitalAction m_keyboardTen;
     DigitalAction m_keyPressMisc;
     DigitalAction m_keyPressSystem;
 
